@@ -1,0 +1,49 @@
+.search-bar {
+    padding: 1rem;
+}
+
+.search-bar__path-name {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #575757;
+}
+
+.search-bar__path-name-active {
+    color: #191919;
+}
+
+.search-bar__search {
+    height: 2rem;
+    width: 15rem;
+    margin: 0.75rem 0.5rem 0.75rem 0;
+    border: 1px solid #a4a4a4;
+    border-radius: 0.25rem;
+}
+
+.search-bar__search:focus,
+.search-bar__search:active {
+    border: 1px solid #9b9a9a;
+    outline: #01a69a;
+}
+
+.search-bar__button {
+    height: 2rem;
+    width: 7rem;
+    background-color: #01a69a;
+    border: 1px solid #01a69a;
+    color: #f3f8f7;
+    transition: all 0.125s ease-in-out;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+.search-bar__button:hover {
+    background-color: #007068;
+    transition: all 0.125s ease-in-out;
+}
+
+.search-bar__results {
+    font-size: 1.5rem;
+    color: #575757;
+    font-weight: 600;
+}

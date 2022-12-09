@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+    background-color: #750b0b;
+    color: #fff;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.header__gray-box {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.25rem;
+    background-color: #d9d9d9;
+}
+
+.header__text {
+    padding: 0 0.5rem;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 40%; */
+}
+
+.header__link-items {
+    padding: 0 0.5rem;
+}
+
+.header__user-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
